@@ -1,3 +1,17 @@
+// Usuarios
+
+class usersC{
+
+    constructor(us, pass){
+
+        this.name = us;
+        this.password = pass;
+
+    }
+
+}
+
+
 // Usuarios registrados
 
 let users = []
@@ -46,10 +60,7 @@ const register = () =>{
 
     // Escritura en el array "users"
 
-    users.push({
-        name: user,
-        password: pass
-    });
+    users.push(new usersC(user, pass));
 
     console.table(users);
 
