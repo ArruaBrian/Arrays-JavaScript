@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(220, 223, 228);
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+blockquote {
+  background: rgba(30, 17, 209, 0.2);
+  padding: 20px;
+  box-sizing: border-box;
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+details {
+  background: rgba(10, 230, 175, 0.2);
+  padding: 20px;
+  box-sizing: border-box;
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+button {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px 30px 15px 30px;
+  cursor: pointer;
+  margin: 10px;
+}/*# sourceMappingURL=main.css.map */
